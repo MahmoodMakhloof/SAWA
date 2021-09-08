@@ -25,8 +25,8 @@ dependencies:
     sdk: flutter
   sqflite: ^2.0.0+3
   intl: ^0.17.0
-  bloc: ^7.0.0
-  flutter_bloc: ^7.0.0
+  bloc: ^7.1.0
+  flutter_bloc: ^7.1.0
   dio: ^4.0.0
   shared_preferences: ^2.0.6
   flutter_conditional_rendering: ^2.0.0
