@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:social/modules/login_screen/login_cubit/cubit.dart';
@@ -16,8 +15,6 @@ import 'layout/social_layout_screen.dart';
 import 'modules/login_screen/login_screen.dart';
 import 'modules/on_boarding_screen/on_boarding_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
-
-import 'modules/register_screen/male_or_female_screen/male_or_female_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,8 +59,9 @@ class MyApp extends StatelessWidget {
                 ..getUserData()
                 ..getAllUsers()
                 ..getPosts()
-                ..getMyPosts()..getNotifications()..getRecentMessages()
-                ),
+                ..getMyPosts()
+                ..getNotifications()
+                ..getRecentMessages()),
         ],
         child: BlocConsumer<SocialCubit, SocialStates>(
           listener: (context, state) {},
