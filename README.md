@@ -1,7 +1,9 @@
 # Social Media Application
+## main tools:
+## bloc - firebase
 ## contains Some features like:
 #### - Uploading images, posts, comments and react
-#### - Realtime Chat
+#### - Realtime Chat and notifications
 
 ## some screens of my app:
 ![CHEESE!](https://user-images.githubusercontent.com/73743979/181599909-83fc2eee-5b0f-43e6-99d4-4e8c12ec400c.png)
